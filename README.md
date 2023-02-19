@@ -2,7 +2,7 @@
 
 
 Text for analysis can be inserted in any language, the program will determine the available symbols and add them to the table after pressing Enter.
-In the Table tab, a table is created, which can be sorted by clicking on the header of one of the columns, clicking again will sort in the opposite direction. When constructing a diagram along the Y axis, you can select the number of symbols or their frequency (if you do not select anything, the order will be based on the number), since the frequency is the ratio of the number of the i-th symbol to the total sum of all symbols, the columns of the diagram will not change their appearance, but only approximate the value on Y to 0-1 (minimum and maximum value of the frequency), on X symbols will be displayed in any case.
+In the Table tab, a table is created, which can be sorted by clicking on the header of one of the columns, clicking again will sort in the opposite direction. When constructing a diagram along the Y axis, you can select the number of symbols or their frequency (if you do not select anything, the order will be based on the count), since the frequency is the ratio of the number of the i-th symbol to the total sum of all symbols, the columns of the diagram will not change their appearance, but only approximate the value on Y to 0-1 (minimum and maximum value of the frequency), on X symbols will be displayed in any case.
 QCusomPlot is used to plot charts
 
 Текст для анализа можно вставить на любом языке, программа сама определит имеющиеся символы и добавит их в таблицу после нажатия Enter.
