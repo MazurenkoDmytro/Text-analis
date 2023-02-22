@@ -5,6 +5,7 @@ Symbol::Symbol()
 {
 
 }
+<<<<<<< HEAD
 void Symbol::setData(QChar newData)
    {
     data = newData;
@@ -22,6 +23,9 @@ void Symbol::setPn(double newPn)
    {
        Pn = newPn;
    }
+=======
+
+>>>>>>> eab0341363ec9041c681faceecd8eb8b1313b2db
 void Symbol::setTotal_symbols(int total){
     Symbol::total_symbols = total;
 }
@@ -40,7 +44,10 @@ int Symbol::getCount(){
 double Symbol::getPn(){
    return Pn;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> eab0341363ec9041c681faceecd8eb8b1313b2db
 Symbol::Symbol(QChar &c){
     data = c;
     count = 1;

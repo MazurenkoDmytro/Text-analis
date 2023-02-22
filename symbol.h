@@ -13,11 +13,14 @@ private:
 public:
     Symbol();
     Symbol(QChar&);
+<<<<<<< HEAD
     Symbol(QChar&c,int i,double d ): data(c),count(i),Pn(d){};
     void setData(QChar newData);
     void setData(char newData);
     void setCount(int newCount);
     void setPn(double newPn);
+=======
+>>>>>>> eab0341363ec9041c681faceecd8eb8b1313b2db
     static void setTotal_symbols(int total);
     static int getTotal_symbols();
     QChar getData();

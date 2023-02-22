@@ -348,6 +348,7 @@ QPushButton:default {
        </item>
       </layout>
      </widget>
+<<<<<<< HEAD
      <widget class="QPushButton" name="pushButton_4">
       <property name="geometry">
        <rect>
@@ -418,6 +419,8 @@ QPushButton:default {
        <string>Save to DB</string>
       </property>
      </widget>
+=======
+>>>>>>> eab0341363ec9041c681faceecd8eb8b1313b2db
     </widget>
     <widget class="QWidget" name="Graph">
      <attribute name="title">
@@ -450,6 +453,7 @@ QPushButton:default {
   </customwidget>
  </customwidgets>
  <resources/>
+<<<<<<< HEAD
  <connections>
   <connection>
    <sender>pushButton_3</sender>
@@ -488,4 +492,7 @@ QPushButton:default {
   <slot>on_SaveToDB_clicked()</slot>
   <slot>on_LoadFromDB_clicked()</slot>
  </slots>
+=======
+ <connections/>
+>>>>>>> eab0341363ec9041c681faceecd8eb8b1313b2db
 </ui>
