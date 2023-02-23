@@ -300,7 +300,6 @@ void MainWindow::sectionClicked(int idx)
                 symbol_direction=true;
             }
 
-            fillTable(symbols);
             break;
         case 1:
             if (count_direction ){
@@ -311,7 +310,6 @@ void MainWindow::sectionClicked(int idx)
                 QuickSort(symbols, symbols.length(), 0, symbols.length()-1,count_direction,symbols[0].getCount()) ;
                 count_direction=true;
             }
-             fillTable(symbols);
             break;
         case 2:
             if (pn_direction){
@@ -322,13 +320,11 @@ void MainWindow::sectionClicked(int idx)
                 QuickSort(symbols, symbols.length(), 0, symbols.length()-1,pn_direction,symbols[0].getPn()) ;
                 pn_direction=true;
             }
-
-            fillTable(symbols);
             break;
         default:
             break;
         }
-
+        fillTable(symbols);
     }
 }
 

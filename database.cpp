@@ -23,7 +23,6 @@
     }
 
    DataBase::~DataBase() {
-
         dbase_.close();
     }
 
